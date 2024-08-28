@@ -1,0 +1,41 @@
+footer {
+    background-color: #601710;
+    color:#fff;
+    font-family: 'Istok Web', sans-serif;
+    padding: 1.5% 5%;
+    padding-right: 9%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 1.5% 25% 3%;
+}
+
+.footer-item-1 {
+    grid-area: item-1;
+}
+
+.footer-item-2 {
+    grid-area: item-2;
+}
+
+.footer-item-3 {
+    grid-area: item-3;
+}
+
+.footer-item-4 {
+    grid-area: item-4;
+}
+
+.footer-list {
+    display: grid;
+    text-align: center;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: 
+        "item-1 item-1 item-1"
+        "item-2 item-3 item-4";
+}
+
+.footer-item-1 h2 {
+    font-weight: bold;
+}
