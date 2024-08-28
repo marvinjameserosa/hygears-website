@@ -1,6 +1,6 @@
 "use client";
 import "../styles/Homepage.css"
-import "../assets/teamPHoto.png"
+import "../assets/teamPhoto.png"
 import Image from 'next/image'
 import profilePic from "../assets/profilePic.png"
 import MechanicalEng from "../assets/MechEng.png"
