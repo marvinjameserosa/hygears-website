@@ -1,0 +1,165 @@
+
+.homepage{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #D9D1CF;
+}
+
+/*Hero Part*/
+
+.hero{
+    width:100%;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #000000;
+}
+
+.heroBg{
+    background-image: url(../assets/teamPhoto.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height:100%;
+    position: absolute;
+    z-index: 1;
+    opacity: 80%;
+}
+
+.heroText{
+    text-align: center;
+    z-index: 2;
+    position: relative;
+}
+
+.mainText{
+    font-family: "LexendBold";
+    font-size: 9vh;
+    color:#FFFFFF;
+}
+
+.quote{
+    font-family: "ManropeSemiBold";
+    font-size: 3vh;
+    color:#FFFFFF;
+}
+
+@font-face {
+    font-family: LexendBold;
+    src: url(../fonts/Lexend/Lexend-Bold.ttf);
+}
+
+@font-face {
+    font-family: ManropeSemiBold;
+    src:url(../fonts/Manrope/Manrope-SemiBold.ttf);
+}
+
+/*Hygears Description*/
+
+@font-face {
+    font-family: "InterRegular";
+    src: url(../fonts/Inter/Inter_18pt-Regular.ttf);
+}
+
+.description{
+    width:80%;
+    height:40%;
+    background-color: #D9D1CF;
+    display:flex;
+    flex-direction: row;
+    margin:9vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.profilePic{
+    width:30vh;
+    height:31vh;
+    margin-right: 5vh;
+}
+
+.descriptionText{
+    color:#000000;
+    font-family: "InterRegular";
+    opacity:75%;
+    font-size: 3vh;
+    letter-spacing: 0.15vh;
+}
+
+/*Team Members*/
+
+@font-face {
+    font-family: ManropeBold;
+    src: url(../fonts/Manrope/Manrope-Bold.ttf);
+}
+
+.teamMembersTitle{
+    display: flex;
+    flex-direction: column;
+    margin: 6vh;
+    align-items: center;
+}
+
+.titleLine{
+    background-color:#D73528;
+    width: 70%;
+    height:0.94vh;
+}
+
+.titleText{
+    color:#000000;
+    font-size: 4vh;
+    font-family: "LexendBold";
+}
+
+.teamMembers{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.programBox{
+    height:37vh;
+    width:26vh;
+    border:3px solid#601710;
+    margin:5.5vh;
+    padding:3vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.programBox p:not(.ElecAndComms){
+    color:#000000;
+    font-family: "ManropeBold";
+    font-size: 2.7vh;
+}
+
+.ElecAndComms{
+    color:#000000;
+    font-family: "ManropeBold";
+    font-size: 2vh;
+}
+
+.teamMembersDescription{
+    margin-left:26vh;
+    margin-right: 26vh;
+    margin-top: 11vh;
+    margin-bottom: 15vh;
+}
+
+.teamMembersDescription p{
+    color:#000000;
+    font-family: "InterRegular";
+    opacity:75%;
+    font-size: 3vh;
+    letter-spacing: 0.15vh;
+}
