@@ -1,27 +1,15 @@
-/* GENERAL STYLES */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-header, footer {
+header {
     background-color: #601710;
     color:#fff;
     font-family: 'Istok Web', sans-serif;
-}
-
-header {
     padding: 1.5% 5%;
     padding-right: 9%;
-}
-
-footer {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    padding: 1.5% 25% 3%;
 }
 
 ul {
@@ -47,33 +35,6 @@ a {
     flex-grow: 2;
 }
 
-/* GRID */
-.footer-item-1 {
-    grid-area: item-1;
-}
-
-.footer-item-2 {
-    grid-area: item-2;
-}
-
-.footer-item-3 {
-    grid-area: item-3;
-}
-
-.footer-item-4 {
-    grid-area: item-4;
-}
-
-.footer-list {
-    display: grid;
-    grid-template-rows: repeat(2, 1fr);
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-areas: 
-        "item-1 item-1 item-1"
-        "item-2 item-3 item-4";
-}
-
-/* SPECIFIC STYLING */
 .header-item-1 {
     font-weight: bold;
     font-size: 2.2rem;
@@ -83,19 +44,10 @@ a {
     font-size: 1.3rem;
 }
 
-.footer-list {
-    text-align: center;
-}
 
-.footer-item-1 h2 {
-    font-weight: bold;
-}
 
-/* HOVER */
 .header-item-2:hover , .header-item-3:hover, .header-item-4:hover {
     font-size: 1.4rem;
     border-bottom: 5px solid #fff;
     border-radius: 2.4px;
-    /* font-weight: bold; */
-    /* -webkit-text-stroke: 0.5px black; */
 }
