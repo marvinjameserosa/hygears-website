@@ -1,6 +1,5 @@
 "use client";
 import "../styles/Homepage.css"
-import "../assets/teamPhoto.png"
 import Image from 'next/image'
 import profilePic from "../assets/profilePic.png"
 import MechanicalEng from "../assets/MechEng.png"
@@ -13,13 +12,6 @@ export default function Homepage() {
   return (
     <div className="homepage">
 
-      <div className="hero">
-        <div className="heroBg"></div>
-        <div className="heroText">
-          <p className="mainText">WE ARE PUP HYGEARS!</p>
-          <p className="quote">"Hygears Quote"</p>
-        </div>
-      </div>
 
       <div className="description">
         <div className="profilePic">
