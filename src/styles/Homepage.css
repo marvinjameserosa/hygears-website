@@ -41,6 +41,163 @@
     letter-spacing: 0.15vh;
 }
 
+/* Hygears Description*/
+
+
+@font-face {
+    font-family: InterMedium;
+    src: url(../fonts/Inter/Inter_18pt-Medium.ttf);
+}
+
+.aboutUsTitle{
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px solid #000; 
+    line-height: 0.1em;
+    margin:0 0 5% 0;
+}
+
+.aboutUsTitleTextContainer{
+    background:#D9D1CF; 
+    padding:0 3%;
+}
+
+.aboutUsTitleText{
+    background-color: #601710;
+    padding:0.2em 3em;
+    border-radius: 0.5em;
+    font-size: 2.25vw;
+    font-family: "InterMedium";
+    color: #D9D1CF;
+}
+
+@font-face {
+    font-family: InterSemiBold;
+    src: url(../fonts/Inter/Inter_18pt-SemiBold.ttf);
+}
+
+.projectsActivitiesContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.projectsActivitiesTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44vw;
+    height:16vh;
+    background-color: #601710;
+    margin-bottom: 5%;
+}
+
+.projectsActivitiesTitle p{
+    font-family: "InterSemiBold";
+    font-size: 3vw;
+    color: #fff;
+}
+
+.projectItemLeft{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    flex-direction: row;
+    margin-bottom: 2%;
+    background-color: #D9D9D9;
+}
+
+.projectItemRight{
+    display: flex;
+    align-items: center;
+    text-align: right;
+    flex-direction: row;
+    margin-bottom: 2%;
+    background-color: #D9D9D9;
+}
+
+.projectImgLeft{
+    height:30%;
+    width:30%;
+    padding:0 2% 0 0;
+}
+
+.projectImgRight{
+    height:30%;
+    width:30%;
+    padding:0 0 0 2%;
+}
+
+@font-face {
+    font-family: LexendSemiBold;
+    src: url(../fonts/Lexend/Lexend-SemiBold.ttf);
+}
+
+.projectTitle{
+    font-size: 3vw;
+    font-family: "LexendSemiBold";
+}
+
+.projectDescription{
+    font-size: 2.5vw;
+    font-family: "InterRegular";
+    opacity: 85%;
+}
+
+
+.membersTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44vw;
+    height:16vh;
+    background-color: #601710;
+    margin: 5% 0 5% 0;
+}
+
+.membersTitle p{
+    font-family: "InterSemiBold";
+    font-size: 3vw;
+    color: #fff;
+}
+
+.membersDescription{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 2%;
+    background-color: #D9D1CF;
+}
+
+.membersDescriptionText{
+    text-align:left;
+    width:60%;
+    font-size: 1.25vw;
+    font-family: "InterRegular";
+    opacity:85%;
+    padding:0 0 0 5%;
+    line-height:125%;
+    letter-spacing: 0.15em;
+}
+
+.seeMembersButtonContainer{
+    width:40%;
+}
+
+.seeMembersButton{
+    background-color: #500000;
+    width:21vw;
+    height:10vh;
+    font-size: 2.5vw;
+    font-family: "InterRegular";
+}
+
+.seeMembersButton:hover{
+    background-color: #fff;
+    color:#500000;
+}
+
+
 /*Team Members*/
 
 @font-face {

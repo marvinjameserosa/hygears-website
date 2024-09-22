@@ -9,7 +9,7 @@ import TeamPhoto3 from "../assets/TeamPhoto3.png"
 export default function HeroSection() {
 
   return (
-    <Carousel interval={4000} className="carousel">
+    <Carousel interval={3000} className="carousel">
 
       <Carousel.Item>
       <Image className="teamPhoto" src={TeamPhoto1}></Image>

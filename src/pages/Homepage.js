@@ -7,6 +7,10 @@ import ElectronicAndCommunicationsEng from "../assets/ElecAndCommsEng.png"
 import IndustrialEng from "../assets/IndEng.png"
 import ElectronicsEng from "../assets/ElecEng.png"
 import ComputerEng from "../assets/CompEng.png"
+import sampleProjectImg from "../assets/sampleProjectImage.png"
+
+import Card from 'react-bootstrap/Card';
+import Button from 'react-bootstrap/Button';
 
 export default function Homepage() {
   return (
@@ -25,6 +29,80 @@ export default function Homepage() {
         of the country.
         </div>
       </div>
+
+      <div className="aboutUsTitle">
+        <span className="aboutUsTitleTextContainer">
+           <span className="aboutUsTitleText">About Us</span>
+        </span>
+      </div>
+
+  
+      <div className="projectsActivitiesContainer">
+
+      <div className="projectsActivitiesTitle">
+        <p>Projects and Activities</p>
+      </div>
+
+      <div className="projectsContainer">
+      <Card className="projectItemLeft" id="p1">
+      <Image className="projectImgLeft" src={sampleProjectImg}></Image>
+      <Card.Body>
+        <Card.Title className="projectTitle">Title</Card.Title>
+        <Card.Subtitle className="projectDescription">
+          "description"
+        </Card.Subtitle>
+      </Card.Body>
+      </Card>
+
+      <Card className="projectItemRight" id="p2">
+      <Card.Body>
+        <Card.Title className="projectTitle">Title</Card.Title>
+        <Card.Subtitle className="projectDescription">
+          "description"
+        </Card.Subtitle>
+      </Card.Body>
+      <Image className="projectImgRight" src={sampleProjectImg}></Image>
+      </Card>
+
+      <Card className="projectItemLeft" id="p3">
+      <Image className="projectImgLeft" src={sampleProjectImg}></Image>
+      <Card.Body>
+        <Card.Title className="projectTitle">Title</Card.Title>
+        <Card.Subtitle className="projectDescription">
+          "description"
+        </Card.Subtitle>
+      </Card.Body>
+      </Card>
+     </div>
+
+     <div className="membersTitle">
+      <p>Members</p>
+     </div>
+
+    <div className="membersDescription">
+
+      <p className="membersDescriptionText">
+      The team’s diverse composition across various
+        disciplines fosters innovative ideas and solutions,
+        driven by a collective passion to make a positive impact and continuously improve.
+      </p>
+
+      <div className="seeMembersButtonContainer">
+      <Button className="seeMembersButton" variant="primary">See Members</Button>
+      </div>
+      
+    </div>
+
+      
+
+      </div>
+   
+
+
+
+
+
+
 
       <div className="aboutUs">
         <div className="teamMembersTitle">
