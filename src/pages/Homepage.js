@@ -18,15 +18,17 @@ export default function Homepage() {
 
 
       <div className="description">
-        <div className="profilePic">
-          <Image src={profilePic}></Image>
+        <div className="profilePicContainer">
+          <Image className="profilePicImage" src={profilePic}></Image>
         </div>
         <div className="descriptionText">
-        The PUP Hygears is an organization that aims to further enhance the awareness
+          <p>
+          The PUP Hygears is an organization that aims to further enhance the awareness
         of the PUP Students in the field of research and help produce well-trained and
         competent students through real-life training in innovation and production of
         a highly efficient vehicle to help the economy and heighten the technology
         of the country.
+          </p>
         </div>
       </div>
 
@@ -97,11 +99,6 @@ export default function Homepage() {
 
       </div>
    
-
-
-
-
-
 
 
       <div className="aboutUs">
