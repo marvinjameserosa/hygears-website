@@ -1,41 +1,53 @@
-footer {
-    background-color: #601710;
-    color:#fff;
-    font-family: 'Istok Web', sans-serif;
-    padding: 1.5% 5%;
-    padding-right: 9%;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    padding: 1.5% 25% 3%;
+.footer {
+    background-color: #6a0d0d; /* Dark red background */
+    color: white;
+    padding: 20px 0;
 }
 
-.footer-item-1 {
-    grid-area: item-1;
-}
-
-.footer-item-2 {
-    grid-area: item-2;
-}
-
-.footer-item-3 {
-    grid-area: item-3;
-}
-
-.footer-item-4 {
-    grid-area: item-4;
-}
-
-.footer-list {
-    display: grid;
-    text-align: center;
-    grid-template-rows: repeat(2, 1fr);
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-areas: 
-        "item-1 item-1 item-1"
-        "item-2 item-3 item-4";
-}
-
-.footer-item-1 h2 {
+.footer-title {
+    font-size: 24px;
     font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px; /* Space between icons and text */
+    text-align: center;
+}
+
+.footer-icons a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.footer-icons i {
+    margin-right: 8px; /* Space between icon and text */
+}
+
+.footer-icons a:hover {
+    color: #ccc; /* Light gray on hover */
+}
+
+/* Responsive Design Adjustments */
+@media (max-width: 576px) {
+    .footer-title {
+        font-size: 20px;
+    }
+    .footer-icons {
+        flex-direction: column;
+        gap: 20px; /* Adjust spacing for smaller screens */
+    }
+    .footer-icons a {
+        font-size: 14px;
+    }
+    .footer-icons i {
+        margin-right: 5px;
+    }
 }
