@@ -20,38 +20,35 @@
     width:100%;
     height:40%;
     background-color: #D9D1CF;
-    display:flex;
-    justify-content: left;
-    flex-flow: row wrap;
-    margin:9vh 0 9vh 0;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    margin:8vh 0 8vh 0;
+    align-content:center;
+    justify-content: center;
 }
 
+.description-text{
+    grid-column: span 4;
+    margin:0 4em 0 4em;
+}
 
-.profilePicContainer{
+.profile-pic-container{
     display: flex;
     justify-content: center;
-    align-items:center;
-    width:500px;
-    height: 230px;
+    grid-column: span 2;
 }
 
-.profilePicImage{
-    width:15vw;
-    height:16vw;
+.profile-pic-image{
+    width: 15vw;
+    height:15.5vw;
 }
 
-.descriptionText{
-    width:900px;
-    display: flex;
-    align-items: center;
-    margin:0 2vh 0 5vh;
-}
-
-.descriptionText p{
+.description-text p{
     color:#000000;
     font-family: "InterRegular";
     opacity:75%;
-    font-size: 1.5vw;
+    font-size: 1.7vw;
     letter-spacing: 0.15vh;
     text-align: left;
 }
@@ -91,7 +88,7 @@
     src: url(../fonts/Inter/Inter_18pt-SemiBold.ttf);
 }
 
-.projectsActivitiesContainer{
+.projects-main-container{
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -100,20 +97,17 @@
 .projectsActivitiesTitle{
     display: flex;
     justify-content: center;
-    align-items: center;
     width: 44vw;
-    height:16vh;
     background-color: #601710;
     margin-bottom: 5%;
-}
-
-.projectsActivitiesTitle p{
     font-family: "InterSemiBold";
     font-size: 3vw;
     color: #fff;
+    background-color: #601710;
+    padding:2vh;
 }
 
-.projectItemLeft{
+.project-item-left{
     display: flex;
     align-items: center;
     text-align: left;
@@ -122,7 +116,7 @@
     background-color: #D9D9D9;
 }
 
-.projectItemRight{
+.project-item-right{
     display: flex;
     align-items: center;
     text-align: right;
@@ -131,13 +125,13 @@
     background-color: #D9D9D9;
 }
 
-.projectImgLeft{
+.project-img-left{
     height:30%;
     width:30%;
     padding:0 2% 0 0;
 }
 
-.projectImgRight{
+.project-img-right{
     height:30%;
     width:30%;
     padding:0 0 0 2%;
@@ -148,32 +142,32 @@
     src: url(../fonts/Lexend/Lexend-SemiBold.ttf);
 }
 
-.projectTitle{
-    font-size: 3vw;
+.project-title{
+    font-size: 2vw;
     font-family: "LexendSemiBold";
 }
 
-.projectDescription{
-    font-size: 2.5vw;
+.project-description{
+    font-size: 1.5vw;
     font-family: "InterRegular";
     opacity: 85%;
 }
 
+#p1 .project-description{
+    margin:2vh 6vw 2vh 0;
+}
 
-.membersTitle{
+.members-title{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 44vw;
-    height:16vh;
     background-color: #601710;
     margin: 5% 0 5% 0;
-}
-
-.membersTitle p{
     font-family: "InterSemiBold";
     font-size: 3vw;
     color: #fff;
+    padding:2vh;
 }
 
 .membersDescription{

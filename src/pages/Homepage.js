@@ -8,6 +8,7 @@ import IndustrialEng from "../assets/IndEng.png"
 import ElectronicsEng from "../assets/ElecEng.png"
 import ComputerEng from "../assets/CompEng.png"
 import sampleProjectImg from "../assets/sampleProjectImage.png"
+import project1Image from "../assets/proj1-pic.jpg"
 
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
@@ -18,10 +19,10 @@ export default function Homepage() {
 
 
       <div className="description">
-        <div className="profilePicContainer">
-          <Image className="profilePicImage" src={profilePic}></Image>
+        <div className="profile-pic-container">
+          <Image className="profile-pic-image" src={profilePic}></Image>
         </div>
-        <div className="descriptionText">
+        <div className="description-text">
           <p>
           The PUP Hygears is an organization that aims to further enhance the awareness
         of the PUP Students in the field of research and help produce well-trained and
@@ -39,46 +40,48 @@ export default function Homepage() {
       </div>
 
   
-      <div className="projectsActivitiesContainer">
+      <div className="projects-main-container">
 
       <div className="projectsActivitiesTitle">
-        <p>Projects and Activities</p>
+        Projects and Activities
       </div>
 
-      <div className="projectsContainer">
-      <Card className="projectItemLeft" id="p1">
-      <Image className="projectImgLeft" src={sampleProjectImg}></Image>
+      <div className="projects-sub-container">
+      <Card className="project-item-left" id="p1">
+      <Image className="project-img-left" src={project1Image}></Image>
       <Card.Body>
-        <Card.Title className="projectTitle">Title</Card.Title>
-        <Card.Subtitle className="projectDescription">
-          "description"
+        <Card.Title className="project-title">Shell Eco Marathon 2024</Card.Title>
+        <Card.Subtitle className="project-description">
+        We participated in the annual Shell Eco Marathon 2024, a world’s leading
+        student engineering competition that brings together students across the
+        world to design, build and operate some of the world’s most energy-efficient vehicles.
         </Card.Subtitle>
       </Card.Body>
       </Card>
 
-      <Card className="projectItemRight" id="p2">
+      <Card className="project-item-right" id="p2">
       <Card.Body>
-        <Card.Title className="projectTitle">Title</Card.Title>
-        <Card.Subtitle className="projectDescription">
+        <Card.Title className="project-title">Title</Card.Title>
+        <Card.Subtitle className="project-description">
           "description"
         </Card.Subtitle>
       </Card.Body>
-      <Image className="projectImgRight" src={sampleProjectImg}></Image>
+      <Image className="project-img-right" src={sampleProjectImg}></Image>
       </Card>
 
-      <Card className="projectItemLeft" id="p3">
-      <Image className="projectImgLeft" src={sampleProjectImg}></Image>
+      <Card className="project-item-left" id="p3">
+      <Image className="project-img-left" src={sampleProjectImg}></Image>
       <Card.Body>
-        <Card.Title className="projectTitle">Title</Card.Title>
-        <Card.Subtitle className="projectDescription">
+        <Card.Title className="project-title">Title</Card.Title>
+        <Card.Subtitle className="project-description">
           "description"
         </Card.Subtitle>
       </Card.Body>
       </Card>
      </div>
 
-     <div className="membersTitle">
-      <p>Members</p>
+     <div className="members-title">
+      Members
      </div>
 
     <div className="membersDescription">
