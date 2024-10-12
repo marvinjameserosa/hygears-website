@@ -15,7 +15,7 @@ export default function HeroSection() {
       <Image className="teamPhoto" src={TeamPhoto1}></Image>
         <Carousel.Caption className="heroText">
           <h1>WE ARE HYGEARS!</h1>
-          <p>"Hygears Quote"</p>
+          <p>"We don't just build vehicles, we build people to help us build the future!"</p>
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -23,7 +23,7 @@ export default function HeroSection() {
       <Image className="teamPhoto" src={TeamPhoto2}></Image>
         <Carousel.Caption className="heroText">
           <h1>WE ARE HYGEARS!</h1>
-          <p>"Hygears Quote"</p>
+          <p>"We don't just build vehicles, we build people to help us build the future!"</p>
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -31,7 +31,7 @@ export default function HeroSection() {
       <Image className="teamPhoto" src={TeamPhoto3}></Image>
         <Carousel.Caption className="heroText">
           <h1>WE ARE HYGEARS!</h1>
-          <p>"Hygears Quote"</p>
+          <p>"We don't just build vehicles, we build people to help us build the future!"</p>
         </Carousel.Caption>
       </Carousel.Item>
 
