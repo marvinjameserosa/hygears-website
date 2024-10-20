@@ -7,7 +7,6 @@ import TeamPhoto2 from "../assets/TeamPhoto2.png"
 import TeamPhoto3 from "../assets/TeamPhoto3.png"
 
 export default function HeroSection() {
-
   return (
     <Carousel interval={3000} className="carousel">
 
@@ -34,7 +33,6 @@ export default function HeroSection() {
           <p>"We don't just build vehicles, we build people to help us build the future!"</p>
         </Carousel.Caption>
       </Carousel.Item>
-
     </Carousel>
   )
 }
