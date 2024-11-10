@@ -88,13 +88,25 @@
     src: url(../fonts/Inter/Inter_18pt-SemiBold.ttf);
 }
 
+/* Projects and Activities*/
+
+@font-face {
+    font-family: LexendSemiBold;
+    src: url(../fonts/Lexend/Lexend-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: LexendRegular;
+    src: url(../fonts/Lexend/Lexend-Regular.ttf);
+}
+
 .projects-main-container{
     width: 100%;
     display: flex;
     flex-direction: column;
 }
 
-.projectsActivitiesTitle{
+.projects-main-title{
     display: flex;
     justify-content: center;
     width: 44vw;
@@ -107,55 +119,55 @@
     padding:2vh;
 }
 
-.project-item-left{
+
+.project-item{
     display: flex;
-    align-items: center;
-    text-align: left;
     flex-direction: row;
     margin-bottom: 2%;
-    background-color: #D9D9D9;
+    background-color: #D9D1CF;
+    border-radius: 20px;
 }
 
-.project-item-right{
-    display: flex;
-    align-items: center;
-    text-align: right;
-    flex-direction: row;
-    margin-bottom: 2%;
-    background-color: #D9D9D9;
-}
-
-.project-img-left{
-    height:30%;
-    width:30%;
+.proj-img-container{
+    height:36vw;
+    width:42vw;
     padding:0 2% 0 0;
+    background:#500000;
+    border-radius:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.project-img-right{
-    height:30%;
-    width:30%;
-    padding:0 0 0 2%;
+.proj-img-content{
+    width:36vw;
+    height:24vw;
+    border-radius: 20px;
 }
 
-@font-face {
-    font-family: LexendSemiBold;
-    src: url(../fonts/Lexend/Lexend-SemiBold.ttf);
+.proj-body{
+    text-align: left;
+    padding:2vw;
+    background-color: #D9D9D9;
+    border-radius: 20px;
+    width:50vw;
 }
 
 .project-title{
+    padding-top:2vw;
     font-size: 2vw;
     font-family: "LexendSemiBold";
+    text-transform:uppercase;
 }
 
 .project-description{
+    padding:2vw 3vw 0 0;
+    font-family: "LexendRegular";
     font-size: 1.5vw;
-    font-family: "InterRegular";
-    opacity: 85%;
 }
 
-#p1 .project-description{
-    margin:2vh 6vw 2vh 0;
-}
+
+/*Projects description*/
 
 .members-title{
     display: flex;
@@ -170,15 +182,15 @@
     padding:2vh;
 }
 
-.membersDescription{
+.members-description{
     display: flex;
     align-items: center;
     flex-direction: row;
-    margin-bottom: 2%;
+    margin-bottom: 10%;
     background-color: #D9D1CF;
 }
 
-.membersDescriptionText{
+.members-description-text{
     text-align:left;
     width:60%;
     font-size: 1.25vw;
@@ -189,11 +201,11 @@
     letter-spacing: 0.15em;
 }
 
-.seeMembersButtonContainer{
+.see-members-button-container{
     width:40%;
 }
 
-.seeMembersButton{
+.see-members-button{
     background-color: #500000;
     width:21vw;
     height:10vh;
@@ -201,79 +213,7 @@
     font-family: "InterRegular";
 }
 
-.seeMembersButton:hover{
+.see-members-button:hover{
     background-color: #fff;
     color:#500000;
-}
-
-
-/*Team Members*/
-
-@font-face {
-    font-family: ManropeBold;
-    src: url(../fonts/Manrope/Manrope-Bold.ttf);
-}
-
-.teamMembersTitle{
-    display: flex;
-    flex-direction: column;
-    margin: 6vh;
-    align-items: center;
-}
-
-.titleLine{
-    background-color:#D73528;
-    width: 70%;
-    height:0.94vh;
-}
-
-.titleText{
-    color:#000000;
-    font-size: 4vh;
-    font-family: "LexendBold";
-}
-
-.teamMembers{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.programBox{
-    height:37vh;
-    width:26vh;
-    border:3px solid#601710;
-    margin:5.5vh;
-    padding:3vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
-
-.programBox p:not(.ElecAndComms){
-    color:#000000;
-    font-family: "ManropeBold";
-    font-size: 2.7vh;
-}
-
-.ElecAndComms{
-    color:#000000;
-    font-family: "ManropeBold";
-    font-size: 2vh;
-}
-
-.teamMembersDescription{
-    margin-left:26vh;
-    margin-right: 26vh;
-    margin-top: 11vh;
-    margin-bottom: 15vh;
-}
-
-.teamMembersDescription p{
-    color:#000000;
-    font-family: "InterRegular";
-    opacity:75%;
-    font-size: 3vh;
-    letter-spacing: 0.15vh;
 }

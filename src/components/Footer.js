@@ -7,29 +7,31 @@ import emailLogo from "../assets/email.svg"
 import xLogo from "../assets/twitter.svg"
 
 export default function Footer() {
-    return (
-      <main>
-        <footer>
-            <ul class="footer-list">
-              <li class="footer-item-1">
-                <h2>PUP HYGEARS</h2>
-              </li>
-              <li class="footer-item-2">
-                <Image class="icons instagram-logo" src={Instagram} alt="instagram-icon"/>
-                <Image class="icons facebook-logo" src={Facebook} alt="facebook-icon"/> 
-                PUP Hygears
-              </li>
-              <li class="footer-item-3">
-                <Image class="icons email-logo" src={Email} alt="email-icon"/> 
-                <a href="mailto:puphygears@gmail.com">puphygears@gmail.com</a>
-              </li>
-              <li class="footer-item-4">
-                <Image class="icons youtube-logo" src={YouTube} alt="youtube-icon"/> 
-                <Image class="icons twitter-logo" src={Twitter} alt="twitter-icon"/> 
+  return (
+    <main>
+      <footer className="footer">
+        <div className="container">
+            <div className="row">
+                <div className="col text-center">
+                    <h2 className="footer-title">PUP HYGEARS</h2>
+                    <div className="footer-icons">
 
-                {/* link to be added */}
-                <a href="x">&#64;pup&#95;hygears</a>
-              </li>
-            </ul>
+                        <a href="https://www.instagram.com/puphygears?igsh=MTJ4N254eXE4MnRlNQ=="><i className="bi bi-instagram"></i>
+                        <Image className="logo" src={instagramLogo}></Image> puphygears</a>
+
+                        <a href="https://www.facebook.com/PUPHygears"><i className="bi bi-facebook"></i>
+                        <Image className="logo" src={facebookLogo}></Image> PUP Hygears</a>
+
+                        <a href="mailto:puphygears@gmail.com"><i className="bi bi-envelope"></i>
+                        <Image className="logo" src={emailLogo}></Image> puphygears@gmail.com</a>
+
+                        <a href="https://x.com/pup_hygears"><i className="bi bi-twitter"></i>
+                        <Image className="logo" src={xLogo}></Image> @pup_hygears</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
         </footer>
       </main>)}
