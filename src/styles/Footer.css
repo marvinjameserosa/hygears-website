@@ -5,7 +5,7 @@
 }
 
 .footer-title {
-    font-size: 24px;
+    font-size: 40px;
     font-weight: bold;
     margin-bottom: 20px;
 }
@@ -15,7 +15,7 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 30px; /* Space between icons and text */
+    gap: 3vw; /* Space between icons and text */
     text-align: center;
 }
 
@@ -32,7 +32,10 @@
 }
 
 .footer-icons a:hover {
-    color: #ccc; /* Light gray on hover */
+    color: #ccc; /* Light gray on hover */}
+
+.logo{
+    margin-right:0.5vw;
 }
 
 /* Responsive Design Adjustments */
