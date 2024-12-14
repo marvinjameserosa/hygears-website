@@ -37,9 +37,6 @@ export default function ComingSoon () {
                 <p className="comingSoonHeader lh-1">We Are Currently Working on this Website to Deliver <br></br> A Better User Experience</p>
                 <p className="comingSoonSubtitle">STAY TUNED!</p>
               </div>
-
-              {/* Floating Images
-              <Image className="ornamentImage" src={Ornament1}></Image> */}
           
              </div>
             </div> 
