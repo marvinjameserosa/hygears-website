@@ -1,0 +1,90 @@
+.comingSoonPage {
+    width: 100%;
+    padding: 40% 0;
+    background-color: #D9D1CF;
+    position: relative;
+}
+
+.row { /* Removes margin in main body */
+    margin-right: 0;
+    margin-left: 0;
+}
+
+/* TEXT */
+
+@font-face {
+    font-family: "LexendBold";
+    src: url(../fonts/Lexend/Lexend-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url(../fonts/Inter/Inter_18pt-Regular.ttf);
+}
+
+.comingSoonTextbox {
+    max-width: 45vw;
+    color: #000;
+    z-index: 1; /* Moves the text layer to the front */
+}
+
+.comingSoonHeader {
+    font-family: 'LexendBold', sans-serif;
+    margin-bottom: 1.5vh;
+    font-size: 5.5vh;
+}
+
+.comingSoonSubtitle {
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 0.2rem;
+    color: rgba(0, 0, 0, 0.75); /* rgb values with 75% opacity */
+}
+
+/* IMAGES AND ORNAMENTS */
+
+.comingSoonImage {
+    max-height: 300vh;
+    max-width: 40vw;
+    height: auto;
+    width: auto;
+    z-index: 1; /* Moves the image layer to the front */
+}
+
+.dottedOrnament { /* Dotted Square at top page */
+    display: block;
+    position: absolute;
+    top: 15%;
+    right: 12%;
+
+}
+
+.dottedOrnament-1 { /* Dotted Square at bottom page */
+    display: block;
+    position: absolute;
+    top: 60%;
+    left: 16.7%;
+}
+
+.arrow {
+    width: 20vh;
+    height: 20vh;
+
+    display: flex;
+    justify-content: space-between;
+  }
+
+.arrow-2 {
+    align-self: flex-end; /* Targets the second arrow downward */
+}
+ 
+.arrow-top { /* First div of arrows at top */
+    position: absolute;
+    top: 25%;
+    left: 0;
+}
+  
+.arrow-bottom { /* Second div of arrows at bottom */
+    position: absolute;
+    bottom: 20%;
+    right: 2%;
+}
